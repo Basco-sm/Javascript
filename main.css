@@ -1,0 +1,28 @@
+body{
+    padding: 20px;
+    background-color: #f4fafa;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+h1{
+    text-align: center;
+    color: #007bff;
+}
+
+#user-list{
+    list-style: none;
+    padding: 0px;
+}
+#user-list li{
+    background-color: #fff;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2pxn5px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+#user-list li:hover{
+    background-color: #e7f1ff;
+}
